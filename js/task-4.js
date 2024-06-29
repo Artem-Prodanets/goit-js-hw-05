@@ -9,6 +9,19 @@ const getTotalBalanceByGender = (users, gender) => {
 };
 
 
+// * решение 2:
+// const getTotalBalanceByGender = (users, gender) => {
+//     let totalBalance = 0;
+
+//     users
+//         .filter(user => user.gender === gender)  // Фільтруємо користувачів за статтю
+//         .map(user => user.balance)  // Отримуємо масив балансів
+//         .forEach(balance => totalBalance += balance);  // Обчислюємо загальний баланс
+
+//     return totalBalance;
+// };
+
+
 console.log("=============================");
 
 
